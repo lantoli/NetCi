@@ -9,7 +9,7 @@ namespace MyLibrary.UnitTests
         [Test]
         public void TestSomeWork()
         {
-            Assert.IsTrue(new DoThings().DoManyThings());
+            Assert.IsTrue(new DoThings().DoManyThings(true));
         }
 
         [Test]
