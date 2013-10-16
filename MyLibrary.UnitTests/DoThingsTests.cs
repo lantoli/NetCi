@@ -11,5 +11,11 @@ namespace MyLibrary.UnitTests
         {
             Assert.IsTrue(new DoThings().DoManyThings());
         }
+
+        [Test]
+        public void InconclusiveTest()
+        {
+            Assert.Inconclusive("in progress");
+        }
     }
 }
