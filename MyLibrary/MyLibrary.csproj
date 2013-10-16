@@ -41,6 +41,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DoThingsDup.cs" />
     <Compile Include="DoThings.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
