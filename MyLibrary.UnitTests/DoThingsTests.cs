@@ -13,9 +13,9 @@ namespace MyLibrary.UnitTests
         }
 
         [Test]
-        public void InconclusiveTest()
+        public void FailedTest()
         {
-            Assert.Inconclusive("in progress");
+            Assert.Fail("problem");
         }
     }
 }
