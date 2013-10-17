@@ -15,7 +15,7 @@ namespace MyLibrary.UnitTests
         [Test]
         public void FailedTest()
         {
-        //    Assert.Fail("problem");
+            Assert.Fail("problem");
         }
     }
 }
